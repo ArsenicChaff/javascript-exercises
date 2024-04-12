@@ -4,7 +4,7 @@ const repeatString = function(string, num) {
     for (i = 0; i < num; i++){
         tempOutput += string;
     }
-    console.log(tempOutput);
+    return(tempOutput);
 };
 
 // console.log(repeatString('hey', 9));
